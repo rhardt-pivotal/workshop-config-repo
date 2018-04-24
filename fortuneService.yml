@@ -1,6 +1,7 @@
 eureka:
   client: 
     shouldFetchRegistry: false
+    registrationMathod: direct
   instance:
     port: 5000
 mysql: 

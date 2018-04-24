@@ -1,12 +1,11 @@
 eureka:
   client: 
     shouldFetchRegistry: false
-    registrationMethod: direct
   instance:
     port: 5000
 spring:
   cloud:
-    services:
+    discovery:
       registrationMethod: direct
 mysql: 
   client: 

@@ -4,6 +4,10 @@ eureka:
     registrationMethod: direct
   instance:
     port: 5000
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
 mysql: 
   client: 
     database: mydatabase
